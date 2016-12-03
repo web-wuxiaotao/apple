@@ -1,0 +1,647 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	}
+img{
+	display: block;
+	border: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+span{
+	font-family:"iconfont" !important;
+	font-style:normal;
+}
+.top{
+	position: relative;
+	right: 0;
+	top: 0;
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	height: 40px;
+	z-index: 9999;
+}
+.top .top-middle{
+	display: block;
+	line-height: 40px;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-align: right;
+	max-width: 976px;
+	margin: 0 auto;
+	color: #a8a8aa;
+	font-size: 12px;
+}
+.nav{
+	width: 100%;
+	height: 44px;
+	background: #000;
+	position: relative;
+	z-index: 20;
+}
+.nav .content{
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 22px;
+	height: 44px;
+}
+.nav .content .ap-nav-lists{
+	cursor: default;
+	margin: 0 auto;
+	width: auto;
+	height: 44px;
+	box-sizing: content-box;
+	text-align: justify;
+	position: relative;
+	z-index: 5;
+}
+.nav .content .ap-nav-lists .ap-nav-list{
+	/*display: inline-block;*/
+	height: 44px;
+	z-index: 10;
+	vertical-align: top;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav .content .ap-nav-lists .ap-nav-list a{
+	display: block;
+	max-width: 51px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 44px;
+	font-weight: 400;
+	letter-spacing: normal;
+	color: #fff;
+	padding: 0 10px;
+}
+.nav .content .ap-nav-lists .ap-nav-list a:hover{
+	opacity: 0.6;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(1) a span{
+	font-size: 20px;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(1){
+	left: 0;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(2){
+	left: 11.5%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(3){
+	left: 23%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(4){
+	left: 34.5%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(5){
+	left: 46%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(6){
+	left: 57.5%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(7){
+	left: 69%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(7) a{
+	max-width: 99px;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(8){
+	left: 82.5%;
+}
+.nav .content .ap-nav-lists .ap-nav-list:nth-of-type(9){
+	left: 95%;
+}
+.nav .content .ap-nav-head{
+	cursor: default;
+	width: 100%;
+	height: 48px;
+	box-sizing: content-box;
+	text-align: justify;
+	position: relative;
+	z-index: 6;
+	display: none;
+}
+.nav .content .ap-nav-head li{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 0;
+}
+.nav .content .ap-nav-head li:nth-of-type(1){
+	left: 0;
+}
+.nav .content .ap-nav-head li:nth-of-type(2){
+	left: 50%;
+	margin-left: -24px;
+}
+.nav .content .ap-nav-head li:nth-of-type(3){
+	right: 0;
+}
+.nav .content .ap-nav-head li a{
+	display: block;
+	color: #FFFFFF;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.nav .content .ap-nav-head li a:hover{
+	opacity: 0.6;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	max-height: 100%;
+	min-height: 540px;
+	position: relative;
+	background: #000;
+}
+.banner .bg{
+	position: absolute;
+	z-index: 10;
+	top: 14%;
+	left: 0;
+	height: 86%;
+	width: 100%;
+	text-align: center;
+}
+.banner .bg div{
+	width: 100%;
+	height: 110%;
+	background: url(../img/iphone_xlarge.jpg) 50% no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	position: absolute;
+	top: -10%;
+	left: 0;
+	z-index: 10;
+}
+.banner .bg .iphone7{
+	font-size: 18px;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 20;
+}
+.banner .bg .iphone7 h1{
+	max-width: 95px;
+	height: 24px;
+	background: url(../img/logo_iphone_large.png);
+	background-size: 95px 24px;
+	margin: 0 auto 6px;
+}
+.banner .bg .iphone7 h2{
+	font-size: 36px;
+	vertical-align: 1px;
+	font-weight: normal;
+	margin: 0 auto;
+	font-family: "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+/*图片*/
+.row{
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #fff;
+	position: relative;
+	top: 0;
+	z-index: 10;
+}
+.row .imgs{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.row .imgs li{
+	float: left;
+	width: 25%;
+	height: 200px;
+	box-sizing: border-box;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.row .imgs li a{
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+.row .imgs li:nth-of-type(1) a{
+	background: url(../img/october_event_xlarge.jpg);
+	background-position: center center;
+}
+.row .imgs li:nth-of-type(2) a{
+	background: url(../img/watch_series_2_xlarge.jpg);
+	background-position: center center;
+}
+.row .imgs li:nth-of-type(3) a{
+	background: url(../img/ipad_pro_xlarge.jpg);
+	background-position: center center;
+}
+.row .imgs li:nth-of-type(4) a{
+	background: url(../img/iphone_upgrade_xlarge.jpg);
+	background-position: center center;
+}
+/*footer*/
+.footer{
+	position: relative;
+	top: 0;
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.66667;
+	font-weight: 400;
+	letter-spacing: normal;
+	background-color: #f2f2f2;
+	color: #666;
+	min-width: 1024px;
+	overflow: hidden;
+}
+.footer .footer-con{
+	margin: 0 auto;
+	padding: 0 22px;
+	max-width: 980px;
+	box-sizing: content-box;
+}
+.footer .footer-con .sosumi{
+	border-bottom: 1px solid #e3e3e3;
+	color: #999;
+	padding: 16px 0 11px;
+}
+.footer .footer-con .sosumi span{
+	display: block;
+	padding-bottom: 5px;
+}
+.footer .footer-con .directory{
+	font-size: 12px;
+	line-height: 1.66667;
+	font-weight: 400;
+	/*letter-spacing: normal;*/
+	padding-top: 20px;
+	overflow: hidden;
+}
+.footer .footer-con .directory .column{
+	width: 20%;
+	min-height: 2px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.footer .footer-con .directory .column .section{
+	width: 100%;
+	/*position: relative;
+	z-index: 1;*/
+	min-height: 2px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.footer .footer-con .directory .column .section h3{
+	font-size: 12px;
+	line-height: 1.66667;
+	font-weight: 600;
+	letter-spacing: normal;
+	color: #333;
+	margin: 0;
+	position: relative;
+	z-index: 200;
+}
+.footer .footer-con .directory .column .section h3 a{
+	position:absolute;
+	top: 0;
+	right: 10px;
+	color: #333;
+	display: none;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	transition: all 0.5s;
+}
+.footer .footer-con .directory .column .section h3 a:hover{
+	transform: rotate(45deg);
+}
+.footer .footer-con .directory .column .section ul{
+	margin-right: 20px;
+	width: 176px;
+}
+.footer .footer-con .directory .column .section ul li{
+	box-sizing: content-box;
+	height: 20px;
+	width: 176px;
+}
+.footer .footer-con .directory .column .section ul li a{
+	color: #666;
+}
+.footer .footer-con .directory .column .four,.footer .footer-con .directory .column .six{
+	padding-top: 20px;
+}
+.footer-bottom{
+	width: 100%;
+	color: #999;
+	padding: 20px 0 24px;
+	box-sizing: content-box;
+}
+.footer-bottom .footer-shop{
+	border-bottom: 1px solid #e3e3e3;
+	max-height: 9999px;
+	margin-bottom: 6px;
+	padding-bottom: 5px;
+}
+.footer-bottom .footer-shop .nowrap a{
+	color: #0070c9;
+}
+.footer-bottom .footer-locale{
+	float: right;
+}
+.footer-bottom .footer-locale a{
+	color: #333;
+}
+.footer-bottom .footer-locale a span{
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/16.png");
+	padding-right: 5px;
+	background-position: left center;
+	cursor: pointer;
+	float: left;
+	margin-top: 1px;
+}
+.footer-bottom .footer-legal{
+	/*width: 100%;*/
+	overflow: hidden;
+}
+.footer-bottom .footer-legal .footer-legal-copyright{
+	max-height: 9999px;
+	margin-right: 26px;
+	float: left;
+}
+.footer-bottom .footer-legal .footer-legal-links{
+	margin-right: 26px;
+	float: left;
+}
+.footer-bottom .footer-legal .footer-legal-links .footer-legal-link{
+	border-right: 1px solid #d6d6d6;
+	margin-right: 10px;
+	padding-right: 12px;
+	white-space: nowrap;
+	color: #666;
+}
+.footer-bottom p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #999;
+}
+.footer-bottom p a{
+	color: #999;
+}
+/*>1050*/
+@media screen and (min-width:700px ) and (max-width:1068px ){
+	.banner{
+		max-height: 960px;
+		min-height: 580px;
+	}
+	.row{
+		width: 100%;
+		height: auto;
+		border-bottom: 2px solid #fff;
+		position: relative;
+		top: 0;
+		z-index: 10;
+	}
+	.row .imgs{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.row .imgs li{
+		float: left;
+		width: 50%;
+		height: 200px;
+		box-sizing: border-box;
+		border-top: 2px solid #fff;
+		border-right: 2px solid #fff;
+	}
+	.row .imgs li a{
+		display: block;
+		width: 100%;
+		height: 200px;
+	}
+	.row .imgs li:nth-of-type(1) a{
+		background: url(../img/october_event_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(2) a{
+		background: url(../img/watch_series_2_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(3) a{
+		background: url(../img/ipad_pro_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(4) a{
+		background: url(../img/iphone_upgrade_xlarge.jpg);
+		background-position: center center;
+	}
+	.footer{
+		min-width: 320px;
+	}
+}
+@media screen and (max-width:700px ){
+	.banner .bg div{
+		background: url(../img/iphone_xlarge.jpg) 50% no-repeat;
+		background-size: 100%;
+	}
+	.row{
+		width: 100%;
+		height: auto;
+		border-bottom: 2px solid #fff;
+		position: relative;
+		top: 0;
+		z-index: 10;
+	}
+	.row .imgs{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.row .imgs li{
+		float: left;
+		width: 100%;
+		height: 200px;
+		box-sizing: border-box;
+		border-top: 2px solid #fff;
+		border-right: 2px solid #fff;
+	}
+	.row .imgs li a{
+		display: block;
+		width: 100%;
+		height: 200px;
+	}
+	.row .imgs li:nth-of-type(1) a{
+		background: url(../img/october_event_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(2) a{
+		background: url(../img/watch_series_2_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(3) a{
+		background: url(../img/ipad_pro_xlarge.jpg);
+		background-position: center center;
+	}
+	.row .imgs li:nth-of-type(4) a{
+		background: url(../img/iphone_upgrade_xlarge.jpg);
+		background-position: center center;
+	}
+}
+@media screen and (max-width:735px ){
+	.banner{
+		max-height: 640px;
+		min-height: 580px;
+	}
+	.nav .content .ap-nav-list{
+		display: none;
+	}
+	.nav .content .ap-nav-head{
+		display: block;
+	}
+	.footer{
+		min-width: 320px;
+	}
+	.footer .footer-con .directory{
+		font-size: 12px;
+		line-height: 1.66667;
+		font-weight: 400;
+		letter-spacing: normal;
+		padding-top: 20px;
+		overflow: hidden;
+	}
+	.footer .footer-con .directory .column{
+		width: 100%;
+		min-height: 2px;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	.footer .footer-con .directory .column .section{
+		width: 100%;
+		min-height: 2px;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	.footer .footer-con .directory .column .section h3{
+		font-size: 12px;
+		line-height: 1.66667;
+		font-weight: 600;
+		letter-spacing: normal;
+		color: #333;
+		margin: 0;
+		height: 39px;
+	}
+	.footer .footer-con .directory .column .section h3 a{
+		display: block;
+	}
+	.footer .footer-con .directory .column .section ul{
+		margin-right: 20px;
+	}
+	.footer .footer-con .directory .column .section ul li{
+		box-sizing: content-box;
+		height: 30px;
+	}
+	.footer .footer-con .directory .column .section ul li a{
+		color: #666;
+		padding: 0 14px;
+	}
+	.footer .footer-con .directory .column .three ul,.footer .footer-con .directory .column .four ul,.footer .footer-con .directory .column .five ul,.footer .footer-con .directory .column .six ul,.footer .footer-con .directory .column .seven ul{
+		display: none;
+	}
+	.footer .footer-con .directory .column .three h3 a,.footer .footer-con .directory .column .four h3 a,.footer .footer-con .directory .column .five h3 a,.footer .footer-con .directory .column .six h3 a,.footer .footer-con .directory .column .seven h3 a{
+		display: block;
+	}
+	.footer-bottom{
+		width: 100%;
+		color: #999;
+		padding: 20px 0 24px;
+		box-sizing: content-box;
+		font-size: 10px;
+	}
+	.footer-bottom .footer-shop{
+		border-bottom: 1px solid #e3e3e3;
+		max-height: 9999px;
+		margin-bottom: 6px;
+		padding-bottom: 5px;
+	}
+	.footer-bottom .footer-shop .nowrap a{
+		color: #0070c9;
+	}
+	.footer-bottom .footer-locale{
+		margin-bottom: 10px;
+		float: left;
+	}
+	.footer-bottom .footer-locale a{
+		color: #333;
+	}
+	.footer-bottom .footer-locale a span{
+		background-repeat: no-repeat;
+		background-size: 16px 16px;
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		background-image: url("../img/16.png");
+		padding-right: 5px;
+		background-position: left center;
+		cursor: pointer;
+		float: left;
+		margin-top: 1px;
+	}
+	.footer-bottom .footer-legal{
+		width: 100%;
+		overflow: hidden;
+	}
+	.footer-bottom .footer-legal .footer-legal-copyright{
+		max-height: 9999px;
+		margin-right: 26px;
+		display: block;
+	}
+	.footer-bottom .footer-legal .footer-legal-links{
+		margin-right: 26px;
+		display: block;
+		overflow: hidden;
+	}
+	.footer-bottom .footer-legal .footer-legal-links .footer-legal-link{
+		border-right: 1px solid #d6d6d6;
+		margin-right: 10px;
+		padding-right: 12px;
+		white-space: nowrap;
+		color: #666;
+		float: left;
+	}
+	.footer-bottom p{
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: #999;
+	}
+	.footer-bottom p a{
+		color: #999;
+	}
+}
+/*@media screen and (max-width: 400) {
+	.banner .bg{
+		background-size: auto 100%;
+	}
+}*/
+
+
+
+
+
+
+
